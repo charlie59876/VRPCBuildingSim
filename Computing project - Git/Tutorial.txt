@@ -1,0 +1,67 @@
+Introduction
+This software will teach you the ins and outs of building a desktop PC.
+Not every step listed will be simulated in this program, but the ones that are will have a checklist to make sure you complete all the main and required steps, and you wont be able to progress without doing so. 
+First we will go through the different parts of a PC, how to chose those parts, and which ones are compatible. This will help you start the PC building process, and get a balanced PC, for as cheap as you need, with no money wasted on performance you wont use, or will cause bottlenecks.
+Next, we will put those components together on the motherboard. The order these components will be put together is shown on the left. Whilst the order technically doesn't matter when building a PC (it will work as long as everything is connected properly), the position and size of the different parts makes it a lot easier to put certain components in first compared to others, and the order we will walk you through is what we believe to be the easiest order to build most PCs.
+Once all the components are in the motherboard, we will start wiring up the components to the power supply and the motherboard. You will need to make sure all the components are connected to the correct power connector, and will get the right amount of power (we will walk you through this).
+The next step would be to setup the operating system, which we will give a brief introduction too, as it will depend specifically on the operating system you'd like to use. For this tutorial we will focus on windows.
+When you're ready to start, press the next button! -->
+
+Choosing parts
+When choosing parts for your PC, you need to think about the usage, cost, compatibility, as well as more opinionated factors such as being open source or not, and the companies track record. 
+For the PC we will be building, we have chosen the equivalent parts of:
+- AMD Ryzen 7000/8000 gen CPU
+- Generic DDR5 RAM
+- Generic PCIe M.2 SSD
+- Generic AM5 Motherboard
+- Generic 2.5" SATA HDD
+- Generic 8-pin 220w Graphics Card
+- Generic 700w PSU
+- Generic Workbench case
+- Generic AM5 CPU cooler
+As you may see, the CPU is the only non generic part we have chosen. This is because the CPU should be one of the first decisions made when choosing parts to a PC, as it is one of the most expensive, and requires compatibility almost all other parts. The GPU will almost always work as long as it gets enough power, and the ram will work if the speed is compatible with the motherboard (and can be downclocked to a slower speed, if your motherboard doesn't support the exact RAM speed). Exact compatibility should be researched online, to help you choose your exact parts based on your requirements and price range. This can be aided by sites such as PCPartPicker.com
+
+Preparing your area
+In this simulation, your area has already been prepared for you, but of course, this will not be the case in real life. When preparing your area, make sure you have a clear solid surface, such as a table ideally an anti static surface, and not a carpet. If you don't have an anti static surface, use the top of your parts boxes to help, and once everything is in the case it should be fine from then on. Don't rest any of the parts on a bare surface, and instead rest them on the boxes or keep them inside the box until you're about to install each part. Carpets and most other surfaces have a risk of both dust and residual static electricity, which may cause damage to your components in some rare cases.
+Make sure you have a variety of crosshead / Phillips screwdriver heads at the ready, and preferably some kind of plastic spudger to help get into small gaps, and zip ties for cable management.
+One or two small bowls will also help keep track of screws without them rolling away and getting lost, and you can get magnetic bowls made to attract screws so they stay in one place and don't mix with each other.
+You should also ground yourself with a grounding bracelet, that should go around your arm and connect into anything grounded, such as a radiator, or anything metal on a plugged in console or electronic device. This will prevent you building up static electricity and releasing it to any components, that may damage them.
+
+Installing the case standoffs
+Your case should come with standoffs, which will be small hexagonal screws, with a hole at the top. These will often be screwed in for you, but you should double check that they're both all screwed in, and in the right places for your motherboard. If you lay the motherboard on the inside of your case in the top left, you can note down the locations the standoffs should be, which should be directly under the screw holes in the motherboard, with no standoffs anywhere that the motherboard wont screw into, as this can scratch and short circuit the motherboard.
+
+Installing the RAM
+The RAM is the easiest part of the PC to install, and should be done before the CPU and cooler is installed, as often the CPU cooler gets in the way of the RAM slot, making it difficult or even impossible to install the RAM after the CPU cooler.
+The first step to installing the RAM should be to find out where to place them. If you have more than one (we have 2!), you should put one in each RAM channel, as well as ideally having each stick be the same for the best performance (same speed, size, and brand (multipacks are typically better value and guarantee this!)). A RAM channel is a way to connect the RAM to the CPU, with each channel having a limited bandwidth they can handle. Think of it as splitting the transfer in 2, as opposed to sending the whole transfer to one channel, you split it in half and send each half to two channels, which practically halfs the time (realistically nothing is being "split", but the data is evenly sent to the two channels).
+The exact position of the RAM, and which slots should be filled first may very across motherboards, but typically it's in an alternating pattern (RAM, EMPTY, RAM, EMPTY). You should always read the manual of the motherboard to be sure, and sometimes the information will be on the motherboard itself (try looking at our motherboard and seeing where the ram should go!).
+Here is an example manual for our motherboard. v v v
+
+
+
+
+
+
+
+
+
+
+
+
+To install the RAM stick, first locate the DIMM slots, they should be long and thin, typically in a group of 4 or 2, and next to the CPU slot. (on ours, it's the rop right of the motherboard), the RAM will not fit in any other slot, so if the size is different to your RAM, you're looking at the wrong thing (or you bought the wrong kind of RAM for your motherboard!). Then check if there are any clips on the top and / or bottom of the RAM slots, and push these outwards to open them.
+Next, after identifying the specific slots of the 4 you should use for your motherboard and RAM, line up the slight gap in the RAM with the small line in the DIMM slot, and give a firm push down. The clips should snap back down, and the RAM should not be able to be pulled out without opening the clips back up. Repeat this for each RAM stick.
+
+CPU Installation
+Our CPU we have chosen is an AMD CPU that uses an AM5 socket. The AM5 socket is a square, next to the USB ports on the motherboard. Once you have located this, first, pull the small lever and open up the cover to expose the socket. Line up the small arrow on the CPU with the small arrow on the motherboard, and slot it into place, double checking that the cpu is properly seated and doesn't wiggle too much. place the cover back over the CPU, and pull the lever down (this may be a little stiff, but that's perfectly normal!)
+
+CPU Cooler
+The CPU Cooler plays a vital role in a PC, as it makes sure the CPU doesn't overheat, which can cause throttling and slow the PC down, damage the CPU over time, and the PC may even shut down randomly if it gets very hot. The cooler goes on top of the CPU and screws into the 4 holes around the CPU.
+The first step to installing the cooler is to apply thermal paste onto the CPU. You want around a pea size ball in the centre of your CPU (it will be spread out when you put the cooler on). This simulation will apply the right amount of thermal paste for you, so use it as a reference for how much to use.
+Once the thermal paste is on, press the CPU cooler down onto the CPU, so that the long side is parallel to the left and right of the PC. This is so that the fans will blow the hot air away from the CPU and out the back of the PC instead of back into it.
+After the cooler is in place, screw in the four screws into the holes on the motherboard (screw in each screw a small bit at a time, to make sure the cooler stays straight). The screws have a stopper to prevent over tightening, so tighten them as much as you're able to, you want alot of pressure to evenly spread out the thermal paste, and to make the most contact between the CPU and the cooler. 
+
+
+
+
+
+
+
