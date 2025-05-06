@@ -12,6 +12,10 @@ TagManager:
   - MenuHandler
   - Screwdriver
   - Paste
+  - 24PinPSU
+  - 24PinMB
+  - 10PinPSU
+  - 10PinMB
   layers:
   - Default
   - TransparentFX
