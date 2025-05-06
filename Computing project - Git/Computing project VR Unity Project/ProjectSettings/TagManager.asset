@@ -20,6 +20,7 @@ TagManager:
   - 8PinCPU
   - 8PinPSU
   - Fan
+  - Standoff
   layers:
   - Default
   - TransparentFX
@@ -27,7 +28,7 @@ TagManager:
   - Post Processing
   - Water
   - UI
-  - Matchbox
+  - Components
   - 
   - 
   - 

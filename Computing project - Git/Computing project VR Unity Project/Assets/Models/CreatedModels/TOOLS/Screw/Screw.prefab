@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 3568649919560700046}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0732, z: 0}
+  m_LocalPosition: {x: 0, y: -0.2165, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -99,6 +99,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Screw
       objectReference: {fileID: 0}
+    - target: {fileID: 1151388028547126963, guid: bc6986cd566b9154bae072789f1301d0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.071
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -138,7 +142,7 @@ SphereCollider:
   m_Enabled: 1
   serializedVersion: 3
   m_Radius: 0.04
-  m_Center: {x: 0, y: 0.1, z: 0}
+  m_Center: {x: 0, y: 0.19, z: 0}
 --- !u!114 &5883839599147612533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -157,7 +161,7 @@ MonoBehaviour:
   positionLeniance: 0
   checkID: 5
   snapSelf: 1
-  requiredChecks: 04000000
+  requiredChecks: 
   allClips: []
 --- !u!4 &2079375731536769127 stripped
 Transform:

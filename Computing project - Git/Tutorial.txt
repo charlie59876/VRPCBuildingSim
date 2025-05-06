@@ -28,7 +28,10 @@ One or two small bowls will also help keep track of screws without them rolling 
 You should also ground yourself with a grounding bracelet, that should go around your arm and connect into anything grounded, such as a radiator, or anything metal on a plugged in console or electronic device. This will prevent you building up static electricity and releasing it to any components, that may damage them.
 
 Installing the case standoffs
-Your case should come with standoffs, which will be small hexagonal screws, with a hole at the top. These will often be screwed in for you, but you should double check that they're both all screwed in, and in the right places for your motherboard. If you lay the motherboard on the inside of your case in the top left, you can note down the locations the standoffs should be, which should be directly under the screw holes in the motherboard, with no standoffs anywhere that the motherboard wont screw into, as this can scratch and short circuit the motherboard.
+Your case should come with standoffs, which will be small hexagonal screws, with a hole at the top. These may be screwed in for you, but you should double check that they're both all screwed in, and in the right places for your motherboard. If you lay the motherboard on the inside of your case in the top left, you can note down the locations the standoffs should be, which should be directly under the screw holes in the motherboard, with no standoffs anywhere that the motherboard wont screw into, as this can scratch and short circuit the motherboard.
+
+Installing the motherboard
+Once the standoffs are in place, it's time to install the motherboard. The motherboard is the base of the entire PC, where everything connects. Kinda like a brain! (heart too maybe!?). Before installing the motherboard, you should put the IO (input/output) shield in the back of your PC from the inside. Once the motherboard is installed you won't be able to put it in as the motherboard will be blocking the hole, and I'm sure you don't wanna have to unscrew everything! We're using a workbench for this simulation as opposed to a typical PC case, so we can skip this step. Gently place the motherboard onto the standoffs, and screw the standoff screws into the holes that line up with the standoffs. And that's it!
 
 Installing the RAM
 The RAM is the easiest part of the PC to install, and should be done before the CPU and cooler is installed, as often the CPU cooler gets in the way of the RAM slot, making it difficult or even impossible to install the RAM after the CPU cooler.
@@ -59,9 +62,38 @@ The first step to installing the cooler is to apply thermal paste onto the CPU. 
 Once the thermal paste is on, press the CPU cooler down onto the CPU, so that the long side is parallel to the left and right of the PC. This is so that the fans will blow the hot air away from the CPU and out the back of the PC instead of back into it.
 After the cooler is in place, screw in the four screws into the holes on the motherboard (screw in each screw a small bit at a time, to make sure the cooler stays straight). The screws have a stopper to prevent over tightening, so tighten them as much as you're able to, you want alot of pressure to evenly spread out the thermal paste, and to make the most contact between the CPU and the cooler. 
 
+M.2 SSD Installation
+We have a PCIe M.2 SSD, but some M.2 SSDs can also use SATA. You can tell by how many gaps their are in the pins. PCIE SSDs have one gap, and SATA ones have two. The M.2 SATA interface uses the same interface as normal SATA connectors, such as on a 2.5" SSD or HDD, just in a different, smaller form factor. This means the bandwidth will be the same as the regular SATA connectors (if they use the same version). The M.2 PCIe connector on the otherhand, uses the PCIe interface, which is the same interface used by a graphics card (however it has less pins, so has a lower bandwidth to the formfactor most graphics cards use). The PCIe formfactor has a much higher bandwidth, and therefore much higher max speed compared to the SATA interface. 
+PCIe M.2 can reach 7800MB/s on the 4.0 standard using four lanes, whereas SATA M.2 can reach 750MB/s using SATA 3. Thats over a 10x difference!!
+However, just because the bandwidth of the connector is better, doesn't mean that all PCIe SSDs are better than all SATA SSDs. You should check the estimated speed of your specific drive, as well as making sure your motherboard can support that speed to begin with, and that it's using the same interface / connector type.
 
 
 
+
+
+
+The first step to installing an M.2 SSD is to make sure that the M.2 standoff screw is installed into the motherboard. This is often installed for you on alot of motherboards (including ours), but you should always double check, as well as checking it's in the right location (not all M.2 SSDs are the same length, most will be 80mm). If it's not installed, or in the wrong position, unscrew it if needed and screw it in to the right hole.
+
+
+
+
+
+
+
+Next, slot the SSD into the slot and push it in perpandicular to the motherboard, making sure it's secure. After this you can screw in the M.2 screw, which should go into the little gap on the SSD, securing it into the standoff.
+Some motherboards also offer a heatsink for the SSD. This should be removed before installation to be able to access the M.2 slot, and then screwed back into place after installation, though it isn't technically required to work. 
+
+Graphics Card
+The graphics card is a very simple component to install, all you have to do is locate the PCIe x16 port (use the one closest to the CPU, the fastest one is put there!), and push it down into place. Once it's clicked into place, screw it into the case, and after we power it it's installed!
+
+Fans
+Fans come in different sizes, but most cases support most sizes, though you should always double check. Fans are the kind of component that realistically you'll never have "too much" of, there's no downside in installing more if you can. There are multiple different types of connectors that fans use, which will either be on the motherboard or the PSU. Fans that connect directly to the motherboard for power are typically alot better, as it allows them to be more specifically controlled, compared to connecting to the PSU which limits your options for changing speed. Connecting to the motherboard also allows you to have more control over RGB, such as by using the USB interface, or other preprietary interfaces (alot of RGB fan manufacturers use a preprietary interface for the RGB). When installing a fan, make sure the direction faces the right way. For our case, we will put the front of the fan up against the CPU cooler, which will allow the fan to draw in the hot air from the heat sink, and blow it out the back of the case.
+To install a fan, locate a slot that you can put it in, on a case it will be four screws that line up with the 4 holes on the fan, and on most CPU coolers (which our fan will go on), clips are used to hold it in place. Once you've screwed or cliped in your fan, after powering it, and connecting the RGB if applicable, it will be installed.
+
+Power Supply
+We're very close now! Installing the power supply is very tedious, especially if you want good cable management! There are different kinds of PSUs you can buy, based around how modular they are (non modular, semi modular, and fully modular). Ours is fully modular, which means each cable has to be plugged into the PSU, which makes cable management alot easier, since we don't need to keep unused cables in the PC and find somewhere to put them, like we would with a non modular PSU.
+To install a PSU, look at the cables and see where they plug into, it should say on the connector. Plug the PSU side into the power supply, and the other side into the component it says. Be careful, the GPU power and CPU power look very similar, but they are NOT COMPATIBLE with eachover!!
+Once all the cables are connected, you can screw it in to the bottom of the case. The PSU will fit in 2 directions, but it's heavily recommended to install it fan side down, so that the hot air from the PSU will blow out the bottom exhaust of the case, instead of back into the case.
 
 
 

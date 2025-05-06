@@ -40,6 +40,6 @@ https://www.xtremegaminerd.com/what-are-motherboard-standoffs/
 https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/ROG_STRIX_B450_F_GAMING/E14401_ROG_STRIX_B450-F_GAMING_UM_WEB.pdf
 https://www.corsair.com/us/en/explorer/diy-builder/memory/how-to-upgrade-ram-in-your-pc/
 https://geekysoumya.com/cpu-sockets-explained-lga-vs-pga-vs-bga/
-
+http://www.ekwb.com/blog/what-is-pwm-and-how-does-it-work/
 
 

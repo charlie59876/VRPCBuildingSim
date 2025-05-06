@@ -55,9 +55,10 @@ public class ComponentSnapper : MonoBehaviour
         if (other.CompareTag(componentTag))
         {
 
-            Debug.Log("Attempting to snap " + other + " at " + other.transform.parent.position + " to " + this + " at " + componentSnapPosition.position + " (Distance: " + Vector3.Distance(other.transform.parent.position, componentSnapPosition.position) + ")");
-            Debug.Log(other + " Rotation: " + other.transform.parent.rotation + " " + this + " Rotation: " + componentSnapPosition.rotation + " Distance " + Quaternion.Angle(other.transform.parent.rotation, componentSnapPosition.rotation));
-            Debug.Log(positionLeniance + " " + rotationLeniance);
+            //Debug.Log("Attempting to snap " + other + " at " + other.transform.parent.position + " to " + this + " at " + componentSnapPosition.position + " (Distance: " + Vector3.Distance(other.transform.parent.position, componentSnapPosition.position) + ")");
+            //Debug.Log(other + " Rotation: " + other.transform.parent.rotation + " " + this + " Rotation: " + componentSnapPosition.rotation + " Distance " + Quaternion.Angle(other.transform.parent.rotation, componentSnapPosition.rotation));
+            //Debug.Log(positionLeniance + " " + rotationLeniance);
+            Debug.Log(other.transform.parent + " " + other.tag + " " + other.gameObject);
 
             //Makes sure the position and rotation of the componend lines up with the port, so they dont auto snap by just touching them together
             //Setting either value to 0 will ignore that value
