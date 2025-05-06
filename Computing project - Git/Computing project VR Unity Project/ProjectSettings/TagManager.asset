@@ -21,6 +21,8 @@ TagManager:
   - 8PinPSU
   - Fan
   - Standoff
+  - CPUFan
+  - Case
   layers:
   - Default
   - TransparentFX
