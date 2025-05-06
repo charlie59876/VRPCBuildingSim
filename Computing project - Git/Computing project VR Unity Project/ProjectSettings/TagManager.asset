@@ -16,6 +16,10 @@ TagManager:
   - 24PinMB
   - 10PinPSU
   - 10PinMB
+  - 8PinGPU
+  - 8PinCPU
+  - 8PinPSU
+  - Fan
   layers:
   - Default
   - TransparentFX
