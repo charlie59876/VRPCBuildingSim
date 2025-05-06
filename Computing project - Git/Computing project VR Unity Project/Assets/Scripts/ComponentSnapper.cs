@@ -75,6 +75,7 @@ public class ComponentSnapper : MonoBehaviour
                 {
                     Destroy(other.transform.parent.gameObject.GetComponent<XRGrabInteractable>());
                     Destroy(other.transform.parent.gameObject.GetComponent<Rigidbody>());
+                    Destroy(other.transform.parent.gameObject.GetComponent<Collider>());
 
                     other.transform.parent.parent = componentSnapPosition;
 

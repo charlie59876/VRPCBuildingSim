@@ -23,6 +23,9 @@ TagManager:
   - Standoff
   - CPUFan
   - Case
+  - USB
+  - dp
+  - 6PinPSU
   layers:
   - Default
   - TransparentFX
