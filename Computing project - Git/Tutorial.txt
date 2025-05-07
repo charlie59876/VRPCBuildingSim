@@ -1,3 +1,6 @@
+DISCLAIMER 
+This simulator is not affiliated with, endorsed by, or sponsored by any third-party companies, including, but not limited to, any PC company or manufacturer. All trademarks, logos, and brand names are the property of their respective owners. Any depictions or references to companies or components are included solely for accuracy and educational purposes. This project is non-commercial, open source, and intended for academic use only.
+
 Introduction
 This software will teach you the ins and outs of building a desktop PC.
 Not every step listed will be simulated in this program, but the ones that are will have a checklist to make sure you complete all the main and required steps, and you wont be able to progress without doing so. 
