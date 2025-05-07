@@ -95,5 +95,13 @@ We're very close now! Installing the power supply is very tedious, especially if
 To install a PSU, look at the cables and see where they plug into, it should say on the connector. Plug the PSU side into the power supply, and the other side into the component it says. Be careful, the GPU power and CPU power look very similar, but they are NOT COMPATIBLE with eachover!!
 Once all the cables are connected, you can screw it in to the bottom of the case. The PSU will fit in 2 directions, but it's heavily recommended to install it fan side down, so that the hot air from the PSU will blow out the bottom exhaust of the case, instead of back into the case.
 
+Motherboard Wiring
+After connecting the power supply, now you should connect the rest of your components together. For our PC, that's a CPU fan and the case header. The CPU fan connects to the slot labelled CPU POWER on your motherboard, and is seperate to the other fans, as the speed is determined based on specifically the CPUs temperature. Make sure you plug the connector in the right way, there should be some rails on one side of the connector that will guide it into place.
+The front panel header is alot more difficuly to install however. This is because there is no standard for the connectors, so each motherboard will have different positioning for the connectors. Since fiddling with small cables in VR is hard enough, we've combined them for you. But on a real PC, check the motherboard and/or the manual for the location of the connections, and match them up with the icons on the cables themself.
 
+Operating System
+Now you have the hardware built, it's time to install your operating system! First you need a boot drive. You can make one of these with a USB stick and a device, such as an existing PC. You can also purchase a boot disk, if you're unable to create a boot USB. First connect your PC to your monitor, making sure the cable you're using connects to the GPU, NOT the motherboard. Next, connect the USB into the back of the PC (in the motherboard), and boot into your PC, repeatedly pressing F12 (some motherboards may boot into bios from a different key, check your manual!).
+Once you're in the BIOS, all that's left is setting the boot drive to your USB stick. Where to find this will be different for every motherboard, so again, check your manual. Before saving and restarting, double check that the RAM speed is set to the same speed as your RAM sticks, to get the best performance possible. After booting your OS installer should show up, and you can then install your operating system!
 
+Power on
+Congratulations! Your PC should now be running, and displayed on your PC.
