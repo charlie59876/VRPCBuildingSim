@@ -18,6 +18,7 @@ http://www.hardwareschotte.de/magazin/checkliste-m-2-ssd-kauf-a41646
 https://laptopmedia.com/review/acer-spin-5-sp513-52-review-stylish-companion-with-underperforming-hardware/
 https://forum.lowyat.net/topic/5032245/all
 https://sanchezonjusy00.blogspot.com/2022/04/how-to-set-up-my-ssd.html
+
 https://www.cgdirector.com/where-to-connect-fans-to-motherboard/
 https://www.youtube.com/watch?v=H-zsiSdxYPY
 https://www.digitaltrends.com/computing/what-are-intels-lga-processor-sockets/
@@ -38,6 +39,7 @@ https://www.eatyourbytes.com/list-of-gpus-by-power-consumption/
 https://pcbuildmaster.com/ram-channels-single-dual-and-quad-explained/#what-are-ram-channels
 https://www.xtremegaminerd.com/what-are-motherboard-standoffs/
 https://dlcdnets.asus.com/pub/ASUS/mb/SocketAM4/ROG_STRIX_B450_F_GAMING/E14401_ROG_STRIX_B450-F_GAMING_UM_WEB.pdf
+
 https://www.corsair.com/us/en/explorer/diy-builder/memory/how-to-upgrade-ram-in-your-pc/
 https://geekysoumya.com/cpu-sockets-explained-lga-vs-pga-vs-bga/
 http://www.ekwb.com/blog/what-is-pwm-and-how-does-it-work/

@@ -97,7 +97,7 @@ public class MenuHandler : MonoBehaviour
 
     public void NextMenu()
     {
-        Debug.Log("Total menus: " + SubMenus.Length + "  Current menu: " + currentMenu + "  Next menu: " + (currentMenu + 1));
+        //Debug.Log("Total menus: " + SubMenus.Length + "  Current menu: " + currentMenu + "  Next menu: " + (currentMenu + 1));
 
         if(SubMenus.Length >= currentMenu + 1)
         SetMenu(currentMenu + 1);
